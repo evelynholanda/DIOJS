@@ -27,15 +27,18 @@ function classificarImc(imc) {
     }
 }
 
-// função principal que faz calculo direcionando p as funções criadas
-function main() {
+// função principal que faz calculo, cola ela dentro parenteses e ela se auto chama()
+//neste caso voce pode ate tirar nome da função
+//função nao nomeada que so existe dentro desse parenteses- função anonima
+//vc isaola esse escopo/função apenas neste modulo
+(function () {
     const peso = 80;
     const altura = 1.60;
     const imc = calcularImc(peso, altura);
 
     console.log("Seu peso em quilogramas é de:  " + calcularImc);
     console.log(classificarImc(imc));
-}
+})();
 
 //chamando função principal
-main();
+//main();
