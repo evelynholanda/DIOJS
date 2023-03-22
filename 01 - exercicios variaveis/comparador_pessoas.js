@@ -17,21 +17,21 @@ class Pessoa {
     }
 }
 
-function comparadorPessoas (p1, p2){
+function comparadorPessoas(p1, p2) {
     if (p1.idade > p2.idade) {
-        console.log((p1.nome),   " é mais velho que ", (p2.nome));
+        console.log((p1.nome), " é mais velho que ", (p2.nome));
     } else if (p2.idade > p1.idade) {
-        console.log((p2.nome),   "é mais velho que ", (p1.nome));
+        console.log((p2.nome), "é mais velho que ", (p1.nome));
     } else {
-        console.log((p1.nome),   "tem a mesma idade que ", (p2.nome));
+        console.log((p1.nome), "tem a mesma idade que ", (p2.nome));
     }
 
-    
+
 
 }
 
 
 const evelyn = new Pessoa('Evelyn', 36);
-const daniella = new Pessoa('Daniella', 36);
+const daniella = new Pessoa('Daniella', 26);
 
 comparadorPessoas(evelyn, daniella);
