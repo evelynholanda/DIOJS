@@ -32,7 +32,7 @@ class Carro {
 
 const c30 = new Carro();
 c30.marca = "Audi";
-c30.cor = "Branci";
+c30.cor = "Branco";
 c30.gastoMedio = 1 / 12;
 
 const palio = new Carro();
